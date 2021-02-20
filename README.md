@@ -6,7 +6,7 @@ Movie-Search--Express-Server-drill
 
 This project build an Express Server with secuired API enpoint so that it can be safely opened to the public. 
 
-This APP allows user to query from a hught movies dataset and be able to filtered the serch by genre, country or average vote.
+This APP allows user to query from a hught movies dataset and be able to filtered the search by genre, country or average vote.
 
 Note that endpoint only responds when given a valid Authorization header with a Bearer API token value. You can use the follow to geenate one  :
 
