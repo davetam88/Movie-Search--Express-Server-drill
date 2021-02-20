@@ -10,7 +10,7 @@ This APP allows users to query from a huge movie dataset and be able to filter t
 
 Note that endpoint only responds when given a valid Authorization header with a Bearer API token value. You can use the following page link to generate one  :
 
- [UUID generator](`https://www.uuidgenerator.net/version1)
+ [UUID generator](https://www.uuidgenerator.net/version1)
 
 Once it's generated, place the UUID string inside a .env file with the following syntax.
 API_TOKEN=YOUR-UUID
@@ -66,7 +66,7 @@ React Fetch Client used for testing out the CORS middleware
 * morgan loggging tool
 
 
-## >> [Github Link](https://github.com/davetam88/Movie-Search--Express-Server/)
+## >> [Github Link](https://github.com/davetam88/Movie-Search--Express-Server-drill/)
 
 
 
