@@ -49,11 +49,11 @@ React Fetch Client used for testing out the CORS middleware
 * Express Server
 * app.get API
 * Express middleware
-> API tokens
-> Authorization headers
+* API tokens
+* Authorization headers
 * doenv (for the .env API authehitic key file)
-> CORS
-> Helmet
+* CORS
+* Helmet
 * React client
 
 -> Javascript: ES6
