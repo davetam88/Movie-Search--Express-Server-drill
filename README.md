@@ -4,24 +4,23 @@ Movie-Search--Express-Server-drill
 
 ## >> APP Summary:
 
-This project build an Express Server with secuired API enpoint so that it can be safely opened to the public. 
+This project builds an Express Server with a secured API endpoint so that it can be safely opened to the public. 
 
-This APP allows user to query from a hught movies dataset and be able to filtered the search by genre, country or average vote.
+This APP allows users to query from a huge movie dataset and be able to filter the search by genre, country, or average vote.
 
-Note that endpoint only responds when given a valid Authorization header with a Bearer API token value. You can use the follow to geenate one  :
+Note that endpoint only responds when given a valid Authorization header with a Bearer API token value. You can use the following page link to generate one  :
 
  [UUID generator](`https://www.uuidgenerator.net/version1)
 
-Once it's gerneated, place the UUID sring inside a .env file with the following syntax.
+Once it's generated, place the UUID string inside a .env file with the following syntax.
 API_TOKEN=YOUR-UUID
 
 
 ## >> Query String Parameters
 
-- genre -  search for whether the Movie's genre includes a specified string. The search is case insensitive. (example genre=Action)
-- country - search for whether the Movie's country includes a specified string.  The search should be case insensitive. (example country=United States)
-- avg_vote -  search for Movies with an avereage vote(avg_vote) that is greater than or equal to the supplied number.
-
+- genre -  search for whether the Movie's genre includes the specified string. The search is case insensitive. (example genre=Action)
+- country - search for whether the Movie's country includes the specified string.  The search should be case insensitive. (example country=United States)
+- avg_vote -  search for Movies with an average vote(avg_vote) that is greater than or equal to the supplied number.
 
 ## >> Sample Endpoints
 
@@ -68,4 +67,6 @@ React Fetch Client used for testing out the CORS middleware
 
 
 ## >> [Github Link](https://github.com/davetam88/Movie-Search--Express-Server/)
+
+
 
